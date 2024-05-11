@@ -6,7 +6,7 @@ int main(void) {
 
   float peso, altura, imc;
   char nome[15];
-  printf("\n Olá! Qual seu nome? ");
+  printf("\n OlÃ¡! Qual seu nome? ");
   scanf("%s",&nome);
   printf("\n%s, informe seu peso, em quilos.\nUtilize o ponto para separar valores inteiros e fracionados: ",nome);
   scanf("%f",&peso);
@@ -14,19 +14,19 @@ int main(void) {
   scanf("%f(",&altura);
   imc=peso/(altura*altura);
     if(imc<=20){
-    printf("\n%s, seu IMC é: %.2f\nSua classificação é: ABAIXO DO PESO IDEAL",nome,imc);
+    printf("\n%s, seu IMC Ã©: %.2f\nSua classificaÃ§Ã£o Ã©: ABAIXO DO PESO IDEAL",nome,imc);
       }else{
         if(imc>20 && imc<=25){
-        printf("\n%s, seu IMC é: %.2f\nSua classificação é: PESO IDEAL",nome,imc);
+        printf("\n%s, seu IMC Ã©: %.2f\nSua classificaÃ§Ã£o Ã©: PESO IDEAL",nome,imc);
           }else{
             if(imc>25 && imc<=34){
-            printf("\n%s, seu IMC é: %.2f\nSua classificação é: SOBREPESO",nome,imc);
+            printf("\n%s, seu IMC Ã©: %.2f\nSua classificaÃ§Ã£o Ã©: SOBREPESO",nome,imc);
               }else{
                 if(imc>34 && imc<=40){
-                printf("\n%s, seu IMC é: %.2f\nSua classificação é: OBESIDADE",nome,imc);
+                printf("\n%s, seu IMC Ã©: %.2f\nSua classificaÃ§Ã£o Ã©: OBESIDADE",nome,imc);
                   }else{
                     if(imc>40){
-                    printf("\n%s, seu IMC é: %.2f\nSua classificação é: OBESIDADE MÓRBIDA",nome,imc);
+                    printf("\n%s, seu IMC Ã©: %.2f\nSua classificaÃ§Ã£o Ã©: OBESIDADE MÃ“RBIDA",nome,imc);
                     }
                   }
               }
